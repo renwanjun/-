@@ -1,0 +1,15 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "target": "es2015",
+    "module": "commonjs",
+    "lib": ["ES2017"],
+    "sourceMap": true,
+    "outDir": "./built",
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "strictNullChecks": true
+  },
+  "include": ["**/*.ts"],
+  "exclude": ["node_modules", "**/*.test.ts"]
+}
