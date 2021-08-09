@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Lazyload</title>
+    <script>
+        var start = new Date()
+        document.addEventListener('DOMContentLoaded', function () {
+            console.log('dom loaded', new Date() - start)
+            // console.log('3 seconds passed');
+        })
+        window.addEventListener('load', function () {
+            console.log('window load', new Date() - start)
+            // console.log('3 seconds passed');
+        })
+    </script>
+</head>
+
+<body>
+    <img src="../assets/img/default.jpeg" data-src="../assets/img/img1.jpg" />
+    <img src="../assets/img/default.jpeg" data-src="../assets/img/img2.jpg" />
+    <img src="../assets/img/default.jpeg" data-src="../assets/img/img3.jpg" />
+    <img src="../assets/img/default.jpeg" data-src="../assets/img/img4.jpg" />
+    <img src="../assets/img/default.jpeg" data-src="../assets/img/img5.jpg" />
+    <img src="../assets/img/default.jpeg" data-src="../assets/img/img6.jpeg" />
+    <img src="../assets/img/default.jpeg" data-src="../assets/img/img7.jpg" />
+    <img src="../assets/img/default.jpeg" data-src="../assets/img/img8.jpg" />
+    <img src="../assets/img/default.jpeg" data-src="../assets/img/img9.jpg" />
+    <img src="../assets/img/default.jpeg" data-src="../assets/img/img10.jpg" />
+</body>
+
+</html>

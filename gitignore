@@ -1,0 +1,4 @@
+#忽略gitignore文件
+.gitignore
+# */node_modlues/
+node_modules/
