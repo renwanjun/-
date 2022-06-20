@@ -9,6 +9,7 @@ class PrimitiveNumber {
     return typeof x === "number";
   }
 }
+
 console.log(111 instanceof PrimitiveNumber); // true
 
 // 手动实现instanceof
